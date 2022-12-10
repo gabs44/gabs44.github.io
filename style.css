@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.espaco {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.largura-texto {
+  width: 500px;
+  text-align: justify;
+}
+
+body {
+  background-color: #f5dee4;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+thead {
+  background-color: #d19ea8;
+}
+
+tr {
+  text-align: center;
+  border-style: solid;
+}
+
+table {
+  width: 550px;
+  height: 60px;
+}
+
+footer {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
